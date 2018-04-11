@@ -9,6 +9,8 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>All Things in Murderation - Game</title>
+    </head>
+    <body>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <div id="button"><a href="index.html"><h3>Go Back</h3></a></div>
@@ -17,14 +19,58 @@
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Pls.json", {onProgress: UnityProgress});
     </script>
-  </head>
-  <body>
+
+
     <div class="webgl-content">
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title" ><h3>All Things in Murderation</h3></div>
-      </div>
+        <div class="title" ><h3>All Things in Murderation (Game info below)</h3><br> 
     </div>
+        <br>
+          
+        <div class="col-md-14" id="description2"> <br>
+            
+            <h3>Important Game Rules and Information:</h3> <br>
+            <ul style="list-style-type:disc">
+                There are multiple phases and acts in the game. They are outlined below. <br>
+                You may have to do multiple playthroughs to find the killer based on previous knowledge of outcomes!<br> <br>
+            <h4>Intro/Tutorial: </h4> 
+                <li>You cannot explore the Chalet until you enter the Dining Hall (to the right of the stairs) and begin the first act.</li> <br>
+            
+            <h4> Act 1: Dining Phase 1,2 & 3: </h4> <br>
+                <li> After entering the Dining Hall you enter the first act which is comprised of 3 Dinner phases </li>
+                <li> You can progress these dinner phases by speaking to Willem </li>
+                <li> Talking to people, dialogue choices, and picking up items will determine what story line branch you get so choose wisely! </li>
+                <li> After ending the 3rd phase of the Dinner party (Act 1) a murder will occured! </li>
+                <br>
+            <h4> Act 2: Investigation: </h4> 
+                <li>You will now have complete access to the lodge and must investigate the Chalet </li>
+                <li>You can investigate the murder by talking to NPCs to gain insight on motive and evidence on other NPCs that may have commited the crime of murder! </li>
+                <li>Sometimes there are more dialogue choices than displayed, thus use the arrow keys to cycle through the multiple dialogue choices</li>
+                <li>You will also need to collect evidence in the form of pickup-able items scattered around the Chalet</li>
+                <li>You get 5 permanent pickups in your inventory and these items must be able to convince the group of your accusation! </li>
+                <li>Once you have 5 items you can progress to the accusation act to try and accuse one of the NPCs of murder!</li>
+            
+            <h4> Act 3: Accusation: </h4> 
+                <li>You now must use the evidence you collected and the motives you learned to accuse one of the NPCs! (You can accuse the dead NPC as well in some cases)</li>
+                <li>Talk to Willem to accuse a murderer! (In the event of Willem's death, speak to his daughter)</li>
+                <li>Use the arrow keys to cycle through the multiple choices (not all are shown on the screen at one time)</li>
+                <li>Provide the evidence you feel is the most compelling when asked to provide it (You must convince everyone) </li>
+                <li>Depending on your choices you may catch the murderer and win! Give the wrong evidence and motives you will lose!</li>
+            </ul>
+            <br>
+    
+        </div>
+            
+            </div>
+    
+          
+      </div>
+    
+        
+
+      
   </body>
+
 </html>
