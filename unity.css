@@ -1,0 +1,40 @@
+/*!
+ * Start Bootstrap - Portfolio Item (https://startbootstrap.com/template-overviews/portfolio-item)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-portfolio-item/blob/master/LICENSE)
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+body {
+    padding-top: 54px;
+    background-color: darkslategrey;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+#topnavbar, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rock Salt', cursive;
+    color: red;
+}
+
+#navbartitle {
+    font-family: 'Rock Salt', cursive;
+    margin-left: 8.33333333%;
+    color: firebrick;
+
+}
+
+a {
+    font-family: 'Rock Salt', cursive;
+    color: firebrick;
+
+}
+
+#description, #description2, p {
+    color: white;
+}
